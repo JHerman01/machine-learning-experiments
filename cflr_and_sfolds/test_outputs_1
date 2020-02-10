@@ -1,0 +1,21 @@
+python3 cflr.py && python3 sfolds.py 3 && python3 sfolds.py 5 && python3 sfolds.py 20 && python3 sfolds.py n
+
+CFLR:
+	Model:	y = -131.05 + 4.16*x_1 + 0.03*x_2
+	RMSE:	20.07
+
+S-Folds, S = 3 :
+	Mean:	 21.054
+	SD:	 0.959
+
+S-Folds, S = 5 :
+	Mean:	 20.996
+	SD:	 0.651
+
+S-Folds, S = 20 :
+	Mean:	 21.004
+	SD:	 0.186
+
+S-Folds, S = 45 :
+	Mean:	 21.005
+	SD:	 0.0
